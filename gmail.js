@@ -10,9 +10,9 @@ var transporter = nodemailer.createTransport({
 
 var mailOptions = {
   from: 'yasmminflaviaifc@gmail.com',
-  to: 'ncorrearoese@gmail.com',
-  subject: 'eu te amo muito',
-  text: 'te amo vida, boa prova!!'
+  to: 'joedio.borges@ifc.edu.br',
+  subject: 'Enviar email 2b',
+  text: 'Yasmmin Flávia dos Santos Rocha, 2B - wnef dfda lssy tmep'
 };
 
 transporter.sendMail(mailOptions, function(error, info){
